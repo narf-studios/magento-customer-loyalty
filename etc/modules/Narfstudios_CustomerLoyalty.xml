@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <modules>    
+        <Narfstudios_CustomerLoyalty>
+            <version>0.1.0</version>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Narfstudios_CustomerLoyalty>
+    </modules>
+</config>

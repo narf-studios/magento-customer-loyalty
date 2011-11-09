@@ -1,0 +1,13 @@
+######################### narf-studios GmbH #########################
+#####################################################################
+
+This Magento module informs the user if a transaction failed.
+
+Installation:
+- Copy all files and folders into your Magento Installation
+
+Konfiguration:
+- Create a new template in System/Transaction Emails
+- You can use the variables {{var customer}} as Name, {{dateAndTime}}, 
+{{reason}}, {{currency}}, {{couponCode}}, {{couponValue}}
+- Choose the template under System/Configuration/Checkout/Payment failed
