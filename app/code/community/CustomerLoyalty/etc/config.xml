@@ -16,6 +16,22 @@
             	</rewrite>
             </checkout>
         </helpers>
+        <resources>
+        	<customerloyalty_setup>
+				<setup>  
+					<module>Narfstudios_CustomerLoyalty</module>  
+				</setup>
+        		<connection> 
+ 					<use>core_setup</use>  
+				</connection>  
+			</customerloyalty_setup>
+			<customerloyalty_write>  
+				<use>core_write</use>  
+			</customerloyalty_write>  
+			<customerloyalty_read>  
+				<use>core_read</use> 
+			</customerloyalty_read> 
+        </resources>
     </global>
     <adminhtml>
         <translate>
