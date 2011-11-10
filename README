@@ -6,8 +6,9 @@ This Magento module informs the user if a transaction failed.
 Installation:
 - Copy all files and folders into your Magento Installation
 
-Konfiguration:
-- Create a new template in System/Transaction Emails
-- You can use the variables {{var customer}} as Name, {{dateAndTime}}, 
-{{reason}}, {{currency}}, {{couponCode}}, {{couponValue}}
+Configuration:
+- Edit the template "Transaktion fehlgeschlagen Kundeninformation" under System/Transaction Emails
+- You can use the variables {{var customer}} as Name, {{var dateAndTime}}, 
+{{var reason}}, {{var currency}}, {{var couponCode}}, {{var couponValue}}
 - Choose the template under System/Configuration/Checkout/Payment failed
+- In the same section you can decide if you want to send a coupon to the customer
